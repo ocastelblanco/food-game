@@ -40,7 +40,8 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         src: [
-                            'node_modules/jquery/dist/jquery.min.js'
+                            'node_modules/jquery/dist/jquery.min.js',
+                            'node_modules/phaser/build/phaser.min.js'
                         ],
                         dest: 'dist/assets/js/',
                         flatten: true
